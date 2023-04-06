@@ -7,8 +7,11 @@ const TasksPage = ({ tasks }) => (
   <div>
     <h3>Tasks</h3>
     <ul>
-      {/* Loop through all the tasks and display each one */}
-      {tasks.map((task) => (<li key={`${task.id}-${task.title}`}>[{task.category.title}] {task.title}</li>))}
+      {/*
+        Loop through all the tasks and display each one
+        The key property must be unique for each list item (li) as it helps React render things efficiently
+      */}
+      {tasks.map((task) => (<li key={task.id}>[{task.category.title}] {task.title}</li>))}
     </ul>
   </div>
 )

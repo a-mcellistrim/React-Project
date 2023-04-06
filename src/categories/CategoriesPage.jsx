@@ -7,8 +7,11 @@ const CategoriesPage = ({ categories }) => (
   <div>
     <h3>Categories</h3>
     <ul>
-      {/* Loop through all the categories and display each one */}
-      {categories.map((category) => (<li key={`${category.id}-${category.title}`}>{category.title}</li>))}
+      {/*
+        Loop through all the categories and display each one
+        The key property must be unique for each list item (li) as it helps React render things efficiently
+      */}
+      {categories.map((category) => (<li key={category.id}>{category.title}</li>))}
     </ul>
   </div>
 )
