@@ -4,7 +4,7 @@
 1. Install "node"
     - **Windows**: in the Company Portal app (pre-installed on Capgemini Windows machines) search for "node" in the list of pre-approved apps, select version 19.4.0 and install it, following the onscreen instructions
     - **Mac**: install [Node 19.4.0](https://nodejs.org/dist/v19.4.0/) directly from source (the .pkg file)
-    > (Optional) To manage multiple different versions of node you can use a node version manager like "nvm". Windows machines can install "nvm" as a pre-approved app, and Macs can download it from GitHub or through a package manager like "Homebrew"
+> (Optional) To manage multiple different versions of node you can use a node version manager like "nvm". Windows machines can install "nvm" as a pre-approved app, and Macs can download it from GitHub or through a package manager like "Homebrew"
 2. Pick either [VSCode](https://code.visualstudio.com/) or [WebStorm](https://www.jetbrains.com/webstorm/) as your IDE of choice, and follow the below instructions to get started!
 
 ### VSCode
