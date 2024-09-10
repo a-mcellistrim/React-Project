@@ -9,12 +9,15 @@
 
 ### VSCode
 1. Install [VSCode](https://code.visualstudio.com/) - if VSCode is already installed, close any existing windows
-2. Open the project folder in VSCode
+2. Open the project (todo) folder in VSCode
 3. Run `npm install` in the terminal window
 4. Run "Start" from "Run and Debug" in VSCode (or run `npm start` in the terminal window)
 
 ### WebStorm
 1. Install [WebStorm](https://www.jetbrains.com/webstorm/)
-2. Open the project folder in WebStorm 
+2. Open the project (todo) folder in WebStorm 
 3. Run "Install" from WebStorm (or run `npm install` in this project directory)
 4. Run "Start" from WebStorm (or open package.json in WebStorm and click the green "Run Script" arrow for `start` in scripts - `npm start` will also work from a terminal)
+
+## Note to new starters
+Make sure you clone the todo repository, not the api repo.
