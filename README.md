@@ -8,7 +8,7 @@
 2. Pick either [VSCode](https://code.visualstudio.com/) or [WebStorm](https://www.jetbrains.com/webstorm/) as your IDE of choice, and follow the below instructions to get started!
 
 ### VSCode
-1. Install [VSCode](https://code.visualstudio.com/)
+1. Install [VSCode](https://code.visualstudio.com/) - if VSCode is already installed, close any existing windows
 2. Open the project folder in VSCode
 3. Run `npm install` in the terminal window
 4. Run "Start" from "Run and Debug" in VSCode (or run `npm start` in the terminal window)
